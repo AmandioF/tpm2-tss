@@ -11,19 +11,48 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends},
 Description: TPM2 Software stack library - TSS and TCTI libraries
- TPM2.0 TSS (Software Stack) ...
+ TPM2.0 TSS (Software Stack) consists of API layers provided to support
+ TPM 2.0 chips. It is made out of three layers:
+ .
+ - System API (SAPI), which implements the system layer API;
+ - TPM Command Transmission Interface (TCTI), which is used by SAPI to
+   allow communication with the TAB/RM layer;
+ - Trusted Access Broker/Resource Manager (TAB/RM), which handles TPM
+   resources and process coordination.
+ .
+ This package contains the TSS and TCTI libraries that client applications
+ will link against when they require accessing the TPM.
 
 Package: libtss2-dev
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}, libtss2-0 (= ${binary:Version})
 Description: TPM2 Software stack library - development files
- TPM2.0 TSS (Software Stack) ...
+ TPM2.0 TSS (Software Stack) consists of API layers provided to support
+ TPM 2.0 chips. It is made out of three layers:
+ .
+ - System API (SAPI), which implements the system layer API;
+ - TPM Command Transmission Interface (TCTI), which is used by SAPI to
+   allow communication with the TAB/RM layer;
+ - Trusted Access Broker/Resource Manager (TAB/RM), which handles TPM
+   resources and process coordination.
+ .
+ This package contains development files for use when writing applications
+ that need access to TPM chips.
 
 Package: libtss2-utils
 Architecture: any
 Section: utils
 Depends: ${shlibs:Depends}, ${misc:Depends},
 Description: TPM2 Software stack library - TSS utilities
- TPM2.0 TSS (Software Stack) ...
+ TPM2.0 TSS (Software Stack) consists of API layers provided to support
+ TPM 2.0 chips. It is made out of three layers:
+ .
+ - System API (SAPI), which implements the system layer API;
+ - TPM Command Transmission Interface (TCTI), which is used by SAPI to
+   allow communication with the TAB/RM layer;
+ - Trusted Access Broker/Resource Manager (TAB/RM), which handles TPM
+   resources and process coordination.
+ .
+ This package contains utilities and test applications for use with TPM.
 
