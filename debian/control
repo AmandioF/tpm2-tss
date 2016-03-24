@@ -8,7 +8,6 @@ Standards-Version: 3.9.7
 
 Package: libtss2-0
 Architecture: any
-Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends},
 Description: TPM2 Software stack library - TSS and TCTI libraries
  TPM2.0 TSS (Software Stack) consists of API layers provided to support

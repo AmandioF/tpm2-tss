@@ -1,5 +1,5 @@
-tpm2-tss (0.98+20160226.d4f23cc-1) UNRELEASED; urgency=medium
+tpm2-tss (0.98+20160226.d4f23cc-0ubuntu1) xenial; urgency=medium
 
   * Initial release. (Closes: #815846)
 
- -- Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>  Mon, 07 Mar 2016 09:24:30 -0500
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Thu, 24 Mar 2016 12:01:14 -0400
