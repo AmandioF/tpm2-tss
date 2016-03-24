@@ -2,7 +2,7 @@ Source: tpm2-tss
 Section: libs
 Priority: optional
 Maintainer: Mathieu Trudel-Lapierre <mathieu.trudel-lapierre@canonical.com>
-Build-Depends: debhelper (>= 9), dh-autoreconf
+Build-Depends: debhelper (>= 9), dh-autoreconf, autoconf, autoconf-archive, libtool
 Homepage: https://github.com/01org/TPM2.0-TSS
 Standards-Version: 3.9.7
 
